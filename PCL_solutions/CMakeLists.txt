@@ -155,5 +155,5 @@ endfunction()
 
 add_subdirectory(Demo)
 add_subdirectory(OctreeSearch)
-
+add_subdirectory(RangeImageCreation)
 
