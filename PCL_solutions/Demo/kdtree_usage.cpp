@@ -1,6 +1,5 @@
 #include <pcl/point_cloud.h>
 #include <pcl/kdtree/kdtree_flann.h>
-
 #include <iostream>
 #include <vector>
 #include <ctime>
@@ -21,6 +20,7 @@ main (int argc, char** argv) {
     cloud->points[i].y = 1024.0f * rand () / (RAND_MAX + 1.0f);
     cloud->points[i].z = 1024.0f * rand () / (RAND_MAX + 1.0f);
   }
+
 
   pcl::KdTreeFLANN<pcl::PointXYZ> kdtree;
 
